@@ -40,7 +40,8 @@ body {
 
 #header h4 > img {
     display: flex;
-    align-self: auto;
+    align-self: flex-end;
+
     height: 350px;
 }
 
