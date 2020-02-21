@@ -16,6 +16,13 @@ body {
     position: relative;
 }
 
+.picture-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:60px;
+}
+
 #header2{
     display: flex;
     justify-content: space-between;
@@ -52,14 +59,14 @@ body {
 #header h3 {
     padding: 20px ;
     text-transform: none;
-    border: 1px solid orangered;
+    border: 1px solid rgb(7, 5, 4);
     margin:15px;
     text-align: center;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    cursor: grab;
     background-color: orangered;
+    width: 150px;
 }
 
 #header a {
@@ -107,6 +114,8 @@ body {
     height: 200px;
    
 }
+
+
 .page-section:nth-child(odd){
     background-color: rgb(63, 179, 252);
 }
@@ -125,6 +134,7 @@ body {
         flex-direction: column;
         background: none;
         background-color: rgb(63, 179, 252);
+        padding: 30px;
     }
     
     .picture-heading {
@@ -132,6 +142,8 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        padding: 7px;
+        font-size: 20px;
     }
     
    
