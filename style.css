@@ -59,7 +59,7 @@ body {
 #header h3 {
     padding: 20px ;
     text-transform: none;
-    border: 1px solid rgb(7, 5, 4);
+    border: 1px solid orangered;
     margin:15px;
     text-align: center;
     display: inline-block;
@@ -113,6 +113,47 @@ body {
     display: flex;
     height: 200px;
    
+}
+#testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #323947 !important;
+    padding: 60px;
+    margin: 10px;
+}
+
+.testimonial-pic{
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 22px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.job{
+    color: #b0b0b0 !important;
+    font-size: 16px !important;
+    margin: 5px;
+    padding: 5px;
+}
+
+#testimonial p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 7px;
+}
+#application-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
