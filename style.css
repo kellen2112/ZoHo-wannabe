@@ -89,7 +89,7 @@ body {
     margin: 30px; 
 } 
 
-.list-all {
+.business-list-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ body {
     margin-top: 50px;
 }
 
-.first {
+.smart-start {
     margin: 7px;
 }
 
@@ -184,6 +184,5 @@ body {
         font-size: 20px;
     }
     
-   
 
 }
